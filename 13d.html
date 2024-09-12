@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13d</title>
+
+    <style>
+      div {
+        font-family: Arial;
+      }
+
+      .main {
+        display: block;
+        width: 410px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+      }
+
+      .all-inboxes {
+        color: gray;
+        padding-left: 15px;
+        padding-top: 10px;
+      }
+
+      .mail-details {
+        padding-left: 15px;
+        padding-right: 10px;
+        padding-top: 16px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .profile {
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      .image {
+        width: 45px;
+        height: 45px;
+        object-fit: cover;
+        border-radius: 30px;
+      }
+
+      .mail-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .mail-name {
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .mail-time {
+        color: gray;
+      }
+
+      .second-line {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5px;
+        padding-top: 2px;
+      }
+
+      .description {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="all-inboxes">
+        ALL INBOXES
+      </div>
+      <div class="mail-details">
+        <div class="profile">
+          <img class="image" src="images/cat.jpg">
+        </div>
+        <div class="mail-matter">
+          <div class="mail-header">
+            <div class="mail-name">
+              Chewy Promotions
+            </div>
+            <div class="mail-time">
+              4:58 PM
+            </div>
+          </div>
+          <div class="second-line">
+            Biggest sales of the year!
+          </div>
+          <div class="description">
+            Hey there! We're writing to tell you about our...
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="mail-details">
+        <div class="profile">
+          <img class="image" src="images/dog.jpg">
+        </div>
+        <div class="mail-matter">
+          <div class="mail-header">
+            <div class="mail-name">
+              Best Buy
+            </div>
+            <div class="mail-time">
+              12:32 PM
+            </div>
+          </div>
+          <div class="second-line">
+            Your Best Buy eReceipt
+          </div>
+          <div class="description">
+            Thank you for shoping at Best Buy, here is...
+          </div>
+        </div>
+      </div>
+
+
+      <div class="mail-details">
+        <div class="profile">
+          <img class="image" src="images/cat2.jpg">
+        </div>
+        <div class="mail-matter">
+          <div class="mail-header">
+            <div class="mail-name">
+              Netflix
+            </div>
+            <div class="mail-time">
+              9:00 AM
+            </div>
+          </div>
+          <div class="second-line">
+            Here's what's coming soon to Netflix
+          </div>
+          <div class="description">
+            Brand new movies and shows, old favorites...
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.image {
+  vertical-align: middle;
+  object-position: left;
+  border-radius: 100px;
+  height: 55px;
+}
+
+.type-text {
+  vertical-align: middle;
+  font-size: 22px;
+  font-family: Arial;
+  color: rgb(72, 71, 71);
+  border: none;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.tweet-button {
+  margin-left: 0px;
+  vertical-align: middle;
+  color: white;
+  background-color: rgb(29, 155, 240);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+}

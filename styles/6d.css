@@ -1,0 +1,19 @@
+p {
+  font-family: Montserrat;
+  text-align: center;
+}
+.para1 {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.para2 {
+  margin-top: 0;
+  font-weight: 25px;
+}
+
+.para3 {
+  text-decoration: underline;
+}
